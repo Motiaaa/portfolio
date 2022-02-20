@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"  />
+    <!-- styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- animate style  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>PortFolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="logo-link"><h2 class="animate__animated animate__fadeInUp">.<span >Motiaa</span>()</h2></a>
+            
+            <!-- <img src="" alt="logo"> -->
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="humburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">.Home()</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">My-Services()</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About-Me()</a></li>
+                <li class="nav-item"><a href="#work" class="nav-link">My-Projects()</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">.Contact()</a></li>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://github.com/Motiaaa" 
+                           class="nav-link">
+                           <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/motiaa-othman/" 
+                           class="nav-link">
+                           <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://api.whatsapp.com/send/?phone=%2B212668961751&text&app_absent=0" 
+                           class="nav-link">
+                           <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="mailto:motiaaothman@gmail.com" 
+                           class="nav-link">
+                           <i class="fab fa-google"></i>
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- introduction -->
+    <section class="intro" id="home">
+        <h1 class="sec-title sec-title-intro">
+            Hi, I am <strong class="animate__animated animate__slideInUp">Othman Motiaa</strong>
+        </h1>
+        <p class="animate__animated animate__fadeInRight  sec-subtitle sec-subtitle-intro">Back-end dev</p>
+        <img src="img/introimg.jpg" alt="picture of othman motiaa" class="animate__animated animate__zoomInUp intro-img">
+    </section>
+
+    <!-- my services -->
+    <section class="services" id="services">
+        <h2 class="sec-title sec-title-services">What I Do</h2>
+        <div class="service-box">
+            <div class="service">
+                <h3>Web Dev</h3>
+                <p>In the future I want to be an expert in web dev,
+                     now I develop web applications with PHP like 
+                     sales management, employees...</p>
+            </div>
+            <div class="service">
+                <h3>Laravel</h3>
+                <p>As a PHP developer I use laravel 8 frameWork, becouse 
+                    I find it easy to develope and secure,
+                    I work with stricture MVC and micro serevice.</p>
+            </div>
+            <div class="service">
+                <h3>Bootstrap</h3>
+                <p>for design I use Bootstrap 5 frameWork, the mast 
+                popular and the eazy frameWork, i well use Vuejs in the future.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Projects</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about animate__animated " id="about">
+        <h2 class="sec-title sec-title-about">Who I am</h2>
+        <p class="sec-subtitle sec-subtitle-about">Backend Dev PHP with frameWork Laravel & Bootstrap.</p>
+        <div class="about-body">
+            <p>I am an intern at the <b>MIAGE</b> school, I hold a diploma
+                 as a technician specialized in IT development.</p>
+            <p>I am very interested in everything related to web development
+                 and their new technology.</p>
+            <a id="link" href="#" class="btn btn-cv">Download My CV</a>
+        </div>
+        <img src="img/persoimg.jpg" alt="my image" class="about-img">
+    </section>
+
+    <!-- my projects -->
+    <section class="work" id="work">
+        <h2 class="sec-title sec-title-work">My Projects</h2>
+        <p class="sec-subtitle sec-subtitle-work">Click on image for more details</p>
+        <div class="portfolio">
+            <!-- portfolio 01 -->
+            <a href="portfolio-item1.html" class="portfolio-item">
+                <img src="img/ns.jpg" alt="ns_img" class="portfolio-img">
+            </a>
+            <!-- portfolio 02 -->
+            <a href="portfolio-item2.html" class="portfolio-item">
+                <img src="img/dachbordd.jpg" alt="employs_img" class="portfolio-img">
+            </a>
+            <!-- portfolio 03 -->
+            <a href="portfolio-item3.html" class="portfolio-item">
+                <img src="img/bance.jpg" alt="banc_img" class="portfolio-img">
+            </a>
+           
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer" id="contact">
+        <a href="mailto:motiaaothman@gmail.com" class="footer-link">Motiaaothman@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-item">
+                <a href="https://github.com/Motiaaa" 
+                   class="social-link">
+                   <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="https://www.linkedin.com/in/motiaa-othman/" 
+                   class="social-link">
+                   <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="https://api.whatsapp.com/send/?phone=%2B212668961751&text&app_absent=0" 
+                   class="social-link">
+                   <i class="fab fa-whatsapp"></i>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="mailto:motiaaothman@gmail.com" 
+                   class="social-link">
+                   <i class="fab fa-google"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
